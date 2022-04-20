@@ -20,7 +20,7 @@ Ticket::~Ticket(){
 
 
 void Ticket::mostrarDatos(){
-    cout<<this->datos<<endl;
+    this->parsearDatos();
 }
 
 void Ticket::parsearDatos(){

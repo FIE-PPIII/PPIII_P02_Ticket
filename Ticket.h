@@ -10,6 +10,8 @@ private:
     string datos;
     string nro;
     Fecha fecha;
+
+    void parsearDatos();
 public:
     Ticket();
     Ticket(string datos);
@@ -20,7 +22,6 @@ public:
     string obtenerNumero();
     Fecha obtenerFecha();
     void mostrarDatos();
-    void parsearDatos();
 
 };
 
