@@ -1,7 +1,7 @@
 #ifndef TICKET_H_INCLUDED
 #define TICKET_H_INCLUDED
 #include <string>
-#include "Fecha.h"
+
 
 using namespace std;
 
@@ -9,9 +9,7 @@ class Ticket{
 private:
     string datos;
     string nro;
-    Fecha fecha;
 
-    void parsearDatos();
 public:
     Ticket();
     Ticket(string datos);
@@ -20,7 +18,6 @@ public:
     void asignarDatos(string datos);
     string obtenerDatos();
     string obtenerNumero();
-    Fecha obtenerFecha();
     void mostrarDatos();
 
 };
@@ -37,8 +34,5 @@ inline string Ticket::obtenerNumero(){
     return this->nro;
 }
 
-inline Fecha Ticket::obtenerFecha(){
-    return this->fecha;
-}
 
 #endif // TICKET_H_INCLUDED

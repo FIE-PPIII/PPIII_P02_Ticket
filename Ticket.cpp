@@ -20,10 +20,5 @@ Ticket::~Ticket(){
 
 
 void Ticket::mostrarDatos(){
-    this->parsearDatos();
-}
-
-void Ticket::parsearDatos(){
-    Fecha f = this->fecha;
-    cout<<"(" + to_string(f.ObtenerDD()) + "/" + to_string(f.ObtenerMM()) + "/" + to_string(f.ObtenerAAAA()) + ") " + this->datos<<endl;
+    cout<<this->datos<<endl;
 }
