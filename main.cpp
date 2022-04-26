@@ -10,6 +10,10 @@ int main()
     cout<<"Hello, world!"<<endl;
     Ticket unTicket("1234567890");
     unTicket.mostrarDatos();
+    Hora h(19, 22, 2);
+    unTicket.asignarHora(h);
+    Hora hora(8,26,9);
+    cout<<hora.compararHora(unTicket.obtenerHora())<<endl;
 
     return 0;
 }
