@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Fecha.h"
 #include "Ticket.h"
+#include "Hora.h"
 
 using namespace std;
 

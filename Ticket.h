@@ -2,6 +2,7 @@
 #define TICKET_H_INCLUDED
 #include <string>
 #include "Fecha.h"
+#include "Hora.h"
 
 using namespace std;
 
@@ -10,6 +11,7 @@ private:
     string datos;
     string nro;
     Fecha fecha;
+    Hora hora;
 
     void parsearDatos();
 public:
@@ -21,6 +23,9 @@ public:
     string obtenerDatos();
     string obtenerNumero();
     Fecha obtenerFecha();
+    void asignarFecha(Fecha f);
+    Hora obtenerHora();
+    void asignarHora(Hora h);
     void mostrarDatos();
 
 };
@@ -39,6 +44,18 @@ inline string Ticket::obtenerNumero(){
 
 inline Fecha Ticket::obtenerFecha(){
     return this->fecha;
+}
+
+inline void Ticket::asignarFecha(Fecha f) {
+    this->fecha = f;
+}
+
+inline Hora Ticket::obtenerHora() {
+    return this->hora;
+}
+
+inline void Ticket::asignarHora(Hora h) {
+    this->hora = h;
 }
 
 #endif // TICKET_H_INCLUDED
