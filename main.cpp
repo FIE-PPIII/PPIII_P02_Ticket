@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
     cout<<"Hello, world!"<<endl;
-    Ticket unTicket("1234567890");
+    Ticket unTicket("202205041114001234567890");
     unTicket.mostrarDatos();
     Hora h(19, 22, 2);
     unTicket.asignarHora(h);
