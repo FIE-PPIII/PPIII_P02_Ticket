@@ -30,6 +30,5 @@ void Ticket::mostrarDatos(){
 void Ticket::parsearDatos(){
     Fecha f = this->fecha;
     Hora h = this->hora;
-    cout<<"(" + to_string(f.ObtenerDD()) + "/" + to_string(f.ObtenerMM()) + "/" + to_string(f.ObtenerAAAA()) + " " + to_string(h.obtenerHH()) +
-    ":" + to_string(h.obtenerMI()) + ":" + to_string(h.obtenerSS()) +") " + this->datos<<endl;
+    cout<<"(" + to_string(f.ObtenerDD()) + "/" + to_string(f.ObtenerMM()) + "/" + to_string(f.ObtenerAAAA()) + " " + h.formatearHora() +") " + this->datos<<endl;
 }

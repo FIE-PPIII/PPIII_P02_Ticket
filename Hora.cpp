@@ -2,6 +2,7 @@
 // Created by Usuario on 4/26/2022.
 //
 
+#include <string>
 #include "Hora.h"
 #include <iostream>
 
@@ -21,6 +22,20 @@ Hora::Hora(int hh, int mi, int ss) {
 
 Hora::~Hora() {
 
+}
+
+string Hora::formatearHora() {
+    string hora = "";
+    if (this->hh < 10)
+        hora = hora + "0";
+    hora = hora + to_string(this->hh) + ":";
+    if (this->mi < 10)
+        hora = hora + "0";
+    hora = hora + to_string(this->mi) + ":";
+    if (this->ss < 10)
+        hora = hora + "0";
+    hora = hora + to_string(this->ss);
+    return hora;
 }
 
 int Hora::procesarCompararHora(int h, int m, int s) {

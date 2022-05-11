@@ -1,10 +1,15 @@
 # ninja log v5
-1	550	6727125710075111	CMakeFiles/base_cpp.dir/main.cpp.obj	f78b84bb28be568a
-5	549	6727126388703867	CMakeFiles/base_cpp.dir/Ticket.cpp.obj	ebb042920667b931
-15	519	6727126388391444	CMakeFiles/base_cpp.dir/Fecha.cpp.obj	dd0f2fe23a97d87a
-549	745	6727126390578399	base_cpp.exe	f74695e1185b1ac3
-5	474	6727145640089356	CMakeFiles/base_cpp.dir/Hora.cpp.obj	3d67a3ec53380d1e
-475	687	6727145642276675	base_cpp.exe	cd6c3fc63f068041
 5	533	6727150636800526	CMakeFiles/base_cpp.dir/main.cpp.obj	f78b84bb28be568a
 13	546	6727150636800526	CMakeFiles/base_cpp.dir/Ticket.cpp.obj	ebb042920667b931
+15	519	6727126388391444	CMakeFiles/base_cpp.dir/Fecha.cpp.obj	dd0f2fe23a97d87a
 547	726	6727150638518874	base_cpp.exe	cd6c3fc63f068041
+5	474	6727145640089356	CMakeFiles/base_cpp.dir/Hora.cpp.obj	3d67a3ec53380d1e
+38	852	6739309668085496	CMakeFiles/base_cpp.dir/Hora.cpp.obj	3d67a3ec53380d1e
+7	857	6739309668085496	CMakeFiles/base_cpp.dir/main.cpp.obj	f78b84bb28be568a
+15	958	6739309669178991	CMakeFiles/base_cpp.dir/Fecha.cpp.obj	dd0f2fe23a97d87a
+27	975	6739309669335200	CMakeFiles/base_cpp.dir/Ticket.cpp.obj	ebb042920667b931
+975	1170	6739309671209764	base_cpp.exe	cd6c3fc63f068041
+6	676	6739315882269113	CMakeFiles/base_cpp.dir/main.cpp.obj	f78b84bb28be568a
+13	723	6739315882737756	CMakeFiles/base_cpp.dir/Hora.cpp.obj	3d67a3ec53380d1e
+19	777	6739315883362608	CMakeFiles/base_cpp.dir/Ticket.cpp.obj	ebb042920667b931
+777	953	6739315885081344	base_cpp.exe	cd6c3fc63f068041

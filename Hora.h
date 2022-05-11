@@ -4,7 +4,7 @@
 
 #ifndef BASE_CPP_HORA_H
 #define BASE_CPP_HORA_H
-
+#include <string>
 
 class Hora {
 private:
@@ -27,6 +27,7 @@ public:
     int obtenerSS();
     int compararHora(int h, int m, int s);
     int compararHora(Hora hora);
+    std::string formatearHora();
     int validarHora();
     void mostrarHora();
 };
